@@ -1,0 +1,8 @@
+{
+  "name": "rocka-test-backend",
+  "version": "1.0.0",
+  "description": "A test backend app to Rocka",
+  "repository": "https://github.com/ivajo26/rocka-test-backend",
+  "author": "Ivan Jose Diaz Morales (ivajo26)",
+  "license": "MIT"
+}
