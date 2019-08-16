@@ -4,5 +4,12 @@
   "description": "A test backend app to Rocka",
   "repository": "https://github.com/ivajo26/rocka-test-backend",
   "author": "Ivan Jose Diaz Morales (ivajo26)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
