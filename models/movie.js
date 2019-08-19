@@ -16,18 +16,22 @@ class Movie {
         this.posterurl = data.posterurl || ''
     }
 
+    // Method that returns true or false if the actor exists
     hasActor(actor) {
         return this.actors.indexOf(actor) !== -1
     }
 
+    // Method that returns true or false if the genre exists
     hasGenre(genre) {
         return this.genres.indexOf(genre) !== -1
     }
 
+    // Method that returns true or false if the imdbRating exists
     hasImdbRating(imdbRating) {
         return this.imdbRating === imdbRating
     }
 
+    // Method that calculate raiting average
     getAverageRating() {
         return this.ratings.reduce((a, b) => a + b) / this.ratings.length
     }

@@ -1,9 +1,11 @@
 const Movie = require('./movie')
+
 class PlayListService {
     constructor(movies) {
-        this.movies = movies.map(movie => new Movie(movie))
+        this.movies = movies.map(movie => new Movie(movie)) // Build the array of movie models
     }
 
+    // Method to get the playlist
     getList(filters = []) {
         if (filters.length === 0) {
             return this.movies
@@ -16,6 +18,7 @@ class PlayListService {
         }
     }
 
+    // Method to filter, receive by parameter, key, value, data and data type
     filter(value, key, data, isArray = true) {
         if (!value) {
             return data

@@ -10,6 +10,8 @@ app.use(bodyParser.json());
 //Define request response in root URL (/)
 app.post('/', function (req, res) {
   const { movies, filters } = req.body
+
+    // Validation that the movie data arrives
   if(!movies || typeof movies !== 'object') {
     res.status(httpStatus.BAD_REQUEST)
     return res.json({error: 'No movies data en body request'})
