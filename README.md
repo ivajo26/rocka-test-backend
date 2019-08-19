@@ -19,10 +19,10 @@ yarn <= 1.16.0 or npm <= 6.9.0
 
 In the root `/` folder, install the libraries using
 
-```
+``` sh
 yarn install
 
-// or
+# or
 
 npm install
 ```
@@ -31,10 +31,10 @@ npm install
 
 In the root `/` folder from the terminal, run
 
-```
+``` sh
 yarn test
 
-// or
+# or
 
 npm run test
 ```
@@ -43,10 +43,10 @@ npm run test
 
 In the root `/` folder from the terminal, run
 
-```
+``` sh
 yarn start
 
-// or
+# or
 
 npm run start
 ```
